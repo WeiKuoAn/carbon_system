@@ -36,7 +36,7 @@
                                         <form action="index">
 
                                             <div class="mb-3">
-                                                <label class="form-label" for="username">Username</label>
+                                                <label class="form-label" for="username">帳號</label>
                                                 <div class="position-relative input-custom-icon">
                                                     <input type="text" class="form-control" id="username"
                                                         placeholder="Enter username">

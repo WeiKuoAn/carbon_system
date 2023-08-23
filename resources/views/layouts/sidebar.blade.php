@@ -50,6 +50,77 @@
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
+                        <i class="bx bx-user icon nav-icon"></i>
+                        <span class="menu-item">用戶管理</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#">用戶列表</a></li>
+                        <li><a href="#">部門設定</a></li>
+                        <li><a href="#">職稱設定</a></li>
+                        <li><a href="#">權限設定</a></li>                        
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="bx bx-store icon nav-icon"></i>
+                        <span class="menu-item">廠商管理</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="{{ route('customer.index') }}">廠商列表</a></li>
+                        <li><a href="email-inbox">行業類別設定</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="bx bx-book-content icon nav-icon"></i>
+                        <span class="menu-item">問卷管理</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#">新增問卷</a></li>
+                        <li><a href="#">問卷列表</a></li>                  
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="bx bx-data icon nav-icon"></i>
+                        <span class="menu-item">排放源數據設定</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#">範疇設定</a></li>     
+                        <li><a href="#">ISO14064排放源類別</a></li>
+                        <li><a href="#">GHG Protocol排放源類別</a></li>
+                        <li><a href="#">排放源基本資料與排放系数與GWP值</a></li>                  
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="bx bx-coffee icon nav-icon"></i>
+                        <span class="menu-item">盤查管理</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#">盤查列表</a></li>     
+                        <li><a href="#">待檢核盤查列表</a></li>                
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
+                        <i class="bx bx-clipboard icon nav-icon"></i>
+                        <span class="menu-item">報表管理</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li><a href="#">每日盤查案件統計</a></li>     
+                    </ul>
+                </li>
+
+
+
+                <li>
+                    <a href="javascript: void(0);" class="has-arrow">
                         <i class="bx bx-envelope icon nav-icon"></i>
                         <span class="menu-item" data-key="t-email">Email</span>
                     </a>

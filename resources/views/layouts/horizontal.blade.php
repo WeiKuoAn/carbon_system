@@ -243,7 +243,7 @@
                             <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboard"
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="bx bx-home-alt icon nav-icon"></i>
-                                <span data-key="t-dashboards">Dashboards</span>
+                                <span data-key="t-dashboards">Dashboards1</span>
                                 <div class="arrow-down"></div>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="topnav-dashboard">

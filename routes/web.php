@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\CustomerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +20,8 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'root']);
 Route::get('{any}', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
+
+//用戶管理
+Route::resource('user', App\Http\Controllers\UserController::class);
+
+Route::resource('customer', App\Http\Controllers\CustomerController::class);

@@ -35,8 +35,8 @@
                                     <div class="p-2 mt-4">
                                         <form method="POST" action="{{ route('login') }}" class="auth-input">
                                             @csrf
-                                            <div class="mb-2">
-                                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                            <div class="mb-4">
+                                                <label for="email" class="form-label">帳號<span class="text-danger">*</span></label>
                                                 <input id="email" type="email"
                                                     class="form-control @error('email') is-invalid @enderror" name="email"
                                                     value="{{ old('email') }}" required autocomplete="email" autofocus
@@ -48,12 +48,12 @@
                                                 @enderror
                                             </div>
 
-                                            <div class="mb-3">
-                                                <div class="float-end">
+                                            <div class="mb-4">
+                                                {{-- <div class="float-end">
                                                     <a href="{{ route('password.update') }}"
                                                         class="text-muted text-decoration-underline">Forgot password?</a>
-                                                </div>
-                                                <label class="form-label" for="password-input">Password <span class="text-danger">*</span></label>
+                                                </div> --}}
+                                                <label class="form-label" for="password-input">密碼<span class="text-danger">*</span></label>
                                                 <div class="position-relative auth-pass-inputgroup input-custom-icon">
                                                     <span class="bx bx-lock-alt"></span>
                                                     <input type="password"
@@ -81,11 +81,10 @@
                                             </div>
 
                                             <div class="mt-4">
-                                                <button class="btn btn-primary w-100" type="submit">Sign
-                                                    In</button>
+                                                <button class="btn btn-primary w-100" type="submit">登入</button>
                                             </div>
 
-                                            <div class="mt-4 text-center">
+                                            {{-- <div class="mt-4 text-center">
                                                 <div class="signin-other-title">
                                                     <h5 class="font-size-14 mb-3 mt-2 title"> Sign in with </h5>
                                                 </div>
@@ -114,7 +113,7 @@
                                             <div class="mt-4 text-center">
                                                 <p class="mb-0">Don't have an account ? <a href="{{ route('register') }}"
                                                         class="fw-medium text-primary"> Register</a></p>
-                                            </div>
+                                            </div> --}}
                                         </form>
                                     </div>
 
