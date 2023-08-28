@@ -12,6 +12,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
+        // dd(123);
         return view('customers.index');
     }
 

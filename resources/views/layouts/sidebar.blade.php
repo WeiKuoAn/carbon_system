@@ -34,7 +34,7 @@
             <ul class="metismenu list-unstyled" id="side-menu">
                 <li class="menu-title" data-key="t-menu">Dashboard</li>
 
-               <li>
+                <li>
                     <a href="javascript: void(0);">
                         <i class="bx bx-home-alt icon nav-icon"></i>
                         <span class="menu-item" data-key="t-dashboard">Dashboard</span>
@@ -55,8 +55,8 @@
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
                         <li><a href="#">用戶列表</a></li>
-                        <li><a href="#">部門設定</a></li>
-                        <li><a href="#">職稱設定</a></li>
+                        <li><a href="{{ route('department.index') }}">部門設定</a></li>
+                        <li><a href="{{ route('job.index') }}">職稱設定</a></li>
                         <li><a href="#">權限設定</a></li>                        
                     </ul>
                 </li>
@@ -78,7 +78,7 @@
                         <span class="menu-item">問卷管理</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="#">新增問卷</a></li>
+                        <li><a href="{{ route('customer.index') }}">新增問卷</a></li>
                         <li><a href="#">問卷列表</a></li>                  
                     </ul>
                 </li>
